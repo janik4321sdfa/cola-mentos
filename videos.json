@@ -11,9 +11,9 @@
   "id": "01",
   "title": "Fotorealistické 3D",
   "desc": "Filmový makro záběr: sklo s lomem světla, bokeh, teal-orange.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/01.mp4",
+  "poster": "posters/01.jpg",
+  "duration": 44.0
  },
  {
   "id": "02",
@@ -22,14 +22,6 @@
   "file": "videos/02.mp4",
   "poster": "posters/02.jpg",
   "duration": 42.0
- },
- {
-  "id": "03",
-  "title": "Technický výkres",
-  "desc": "Blueprint: bílé linky na modrém papíře, řezy a proudnice.",
-  "file": null,
-  "poster": null,
-  "duration": null
  },
  {
   "id": "04",
