@@ -1,0 +1,90 @@
+[
+ {
+  "id": "00",
+  "title": "Malovaná animace",
+  "desc": "Painterly 2.5D: viditelné tahy štětce, plátno, plasticky stínované molekuly.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "01",
+  "title": "Fotorealistické 3D",
+  "desc": "Filmový makro záběr: sklo s lomem světla, bokeh, teal-orange.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "02",
+  "title": "Akvarel",
+  "desc": "Vrstvené lazury na hrubém papíře, granulace pigmentu.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "03",
+  "title": "Technický výkres",
+  "desc": "Blueprint: bílé linky na modrém papíře, řezy a proudnice.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "04",
+  "title": "Neonový hologram",
+  "desc": "Sci-fi HUD: drátový model, bloom, svítící částice.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "05",
+  "title": "Papírová koláž",
+  "desc": "Stop-motion z vystřiženého kartonu s vrženými stíny.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "06",
+  "title": "Švýcarský flat design",
+  "desc": "Čistá geometrie, mřížka, morphy tvarů, červená a černá.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "07",
+  "title": "Elektronový mikroskop",
+  "desc": "SEM šedotón s false-color CO₂, pórovitý povrch Mentosu.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "08",
+  "title": "Ocelorytina",
+  "desc": "Vědecká ilustrace 19. století: šrafy a inkoust na starém papíře.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "09",
+  "title": "Low-poly dioráma",
+  "desc": "Izometrický facetový svět, řez lahví, ikosaedrové molekuly.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ },
+ {
+  "id": "10",
+  "title": "Generativní částice",
+  "desc": "Data-art z desítek tisíc svítících bodů, curl-noise proudění.",
+  "file": null,
+  "poster": null,
+  "duration": null
+ }
+]
