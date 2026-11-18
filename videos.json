@@ -59,32 +59,32 @@
   "id": "07",
   "title": "Elektronový mikroskop",
   "desc": "SEM šedotón s false-color CO₂, pórovitý povrch Mentosu.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/07.mp4",
+  "poster": "posters/07.jpg",
+  "duration": 44.0
  },
  {
   "id": "08",
   "title": "Ocelorytina",
   "desc": "Vědecká ilustrace 19. století: šrafy a inkoust na starém papíře.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/08.mp4",
+  "poster": "posters/08.jpg",
+  "duration": 43.0
  },
  {
   "id": "09",
   "title": "Low-poly dioráma",
   "desc": "Izometrický facetový svět, řez lahví, ikosaedrové molekuly.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/09.mp4",
+  "poster": "posters/09.jpg",
+  "duration": 43.0
  },
  {
   "id": "10",
   "title": "Generativní částice",
   "desc": "Data-art z desítek tisíc svítících bodů, curl-noise proudění.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/10.mp4",
+  "poster": "posters/10.jpg",
+  "duration": 40.0
  }
 ]
