@@ -3,9 +3,9 @@
   "id": "00",
   "title": "Malovaná animace",
   "desc": "Painterly 2.5D: viditelné tahy štětce, plátno, plasticky stínované molekuly.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/00.mp4",
+  "poster": "posters/00.jpg",
+  "duration": 45.0
  },
  {
   "id": "01",
@@ -19,9 +19,9 @@
   "id": "02",
   "title": "Akvarel",
   "desc": "Vrstvené lazury na hrubém papíře, granulace pigmentu.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/02.mp4",
+  "poster": "posters/02.jpg",
+  "duration": 42.0
  },
  {
   "id": "03",
@@ -35,25 +35,25 @@
   "id": "04",
   "title": "Neonový hologram",
   "desc": "Sci-fi HUD: drátový model, bloom, svítící částice.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/04.mp4",
+  "poster": "posters/04.jpg",
+  "duration": 43.0
  },
  {
   "id": "05",
   "title": "Papírová koláž",
   "desc": "Stop-motion z vystřiženého kartonu s vrženými stíny.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/05.mp4",
+  "poster": "posters/05.jpg",
+  "duration": 42.0
  },
  {
   "id": "06",
   "title": "Švýcarský flat design",
   "desc": "Čistá geometrie, mřížka, morphy tvarů, červená a černá.",
-  "file": null,
-  "poster": null,
-  "duration": null
+  "file": "videos/06.mp4",
+  "poster": "posters/06.jpg",
+  "duration": 42.0
  },
  {
   "id": "07",
