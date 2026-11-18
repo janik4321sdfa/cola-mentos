@@ -3,80 +3,81 @@
   "id": "00",
   "title": "Malovaná animace",
   "desc": "Painterly 2.5D: viditelné tahy štětce, plátno, plasticky stínované molekuly.",
-  "file": "videos/00.mp4",
-  "poster": "posters/00.jpg",
+  "file": "videos/00.mp4?v=1795014517",
+  "poster": "posters/00.jpg?v=1795014517",
   "duration": 45.0
  },
  {
   "id": "01",
   "title": "Fotorealistické 3D",
   "desc": "Filmový makro záběr: sklo s lomem světla, bokeh, teal-orange.",
-  "file": "videos/01.mp4",
-  "poster": "posters/01.jpg",
+  "file": "videos/01.mp4?v=1795031294",
+  "poster": "posters/01.jpg?v=1795031294",
   "duration": 44.0
  },
  {
   "id": "02",
   "title": "Akvarel",
   "desc": "Vrstvené lazury na hrubém papíře, granulace pigmentu.",
-  "file": "videos/02.mp4",
-  "poster": "posters/02.jpg",
+  "file": "videos/02.mp4?v=1795025629",
+  "poster": "posters/02.jpg?v=1795025629",
   "duration": 42.0
  },
  {
   "id": "04",
   "title": "Neonový hologram",
   "desc": "Sci-fi HUD: drátový model, bloom, svítící částice.",
-  "file": "videos/04.mp4",
-  "poster": "posters/04.jpg",
+  "file": "videos/04.mp4?v=1795024048",
+  "poster": "posters/04.jpg?v=1795024048",
   "duration": 43.0
  },
  {
   "id": "05",
   "title": "Papírová koláž",
   "desc": "Stop-motion z vystřiženého kartonu s vrženými stíny.",
-  "file": "videos/05.mp4",
-  "poster": "posters/05.jpg",
+  "file": "videos/05.mp4?v=1795025355",
+  "poster": "posters/05.jpg?v=1795025355",
   "duration": 42.0
  },
  {
   "id": "06",
   "title": "Švýcarský flat design",
   "desc": "Čistá geometrie, mřížka, morphy tvarů, červená a černá.",
-  "file": "videos/06.mp4",
-  "poster": "posters/06.jpg",
+  "file": "videos/06.mp4?v=1795021558",
+  "poster": "posters/06.jpg?v=1795021558",
   "duration": 42.0
  },
  {
   "id": "07",
   "title": "Elektronový mikroskop",
   "desc": "SEM šedotón s false-color CO₂, pórovitý povrch Mentosu.",
-  "file": "videos/07.mp4",
-  "poster": "posters/07.jpg",
+  "file": "videos/07.mp4?v=1795030934",
+  "poster": "posters/07.jpg?v=1795030934",
   "duration": 44.0
  },
  {
   "id": "08",
   "title": "Ocelorytina",
   "desc": "Vědecká ilustrace 19. století: šrafy a inkoust na starém papíře.",
-  "file": "videos/08.mp4",
-  "poster": "posters/08.jpg",
+  "file": "videos/08.mp4?v=1795030983",
+  "poster": "posters/08.jpg?v=1795030983",
   "duration": 43.0
  },
  {
   "id": "09",
   "title": "Low-poly dioráma",
   "desc": "Izometrický facetový svět, řez lahví, ikosaedrové molekuly.",
-  "file": "videos/09.mp4",
-  "poster": "posters/09.jpg",
+  "file": "videos/09.mp4?v=1795028058",
+  "poster": "posters/09.jpg?v=1795028058",
   "duration": 43.0
  },
  {
   "id": "10",
   "title": "Generativní částice",
   "desc": "Data-art z desítek tisíc svítících bodů, curl-noise proudění.",
-  "file": "videos/10.mp4",
-  "poster": "posters/10.jpg",
-  "duration": 40.0
+  "file": "videos/10.mp4?v=1795036365",
+  "poster": "posters/10.jpg?v=1795036365",
+  "duration": 40.0,
+  "updated": "18. 11. 2026 22:12"
  }
 ]

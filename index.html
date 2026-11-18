@@ -46,6 +46,11 @@ main{max-width:1320px;margin:0 auto;padding:clamp(20px,4vw,48px) clamp(14px,3vw,
 .row{display:flex;align-items:baseline;gap:10px}
 .num{font-size:13px;color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums}
 .title{margin:0;font-size:18px}
+.badge{display:inline-block;background:#e4002b;color:#fff;font-size:11px;font-weight:700;letter-spacing:.06em;padding:3px 8px;border-radius:999px;margin-left:8px;vertical-align:middle;white-space:nowrap}
+.mbadge{position:absolute;left:10px;top:10px;z-index:2;background:#e4002b;color:#fff;font-size:12px;font-weight:800;letter-spacing:.08em;padding:4px 10px;border-radius:6px;box-shadow:0 2px 10px rgba(0,0,0,.5)}
+.card.upd{border-color:#e4002b}
+.upd-note{font-size:12px;color:#ff8a8a;margin:4px 0 0}
+
 .desc{margin:0;color:var(--mute);font-size:14.5px}
 .actions{margin-top:auto;padding-top:8px;display:flex;gap:14px;font-size:14px}
 .actions a{text-decoration:none}
@@ -87,12 +92,12 @@ function esc(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','
 fetch('videos.json?v='+Date.now()).then(r=>r.json()).then(list=>{
  const g=document.getElementById('grid'); let ready=0;
  list.forEach(v=>{
-  const c=document.createElement('article'); c.className='card';
+  const c=document.createElement('article'); c.className='card'+(v.updated?' upd':'');
   let media;
   if(v.file){ ready++;
-   media=`<div class="media">${v.poster?`<img src="${v.poster}" alt="" loading="lazy">`:''}<button class="play" aria-label="Přehrát: ${esc(v.title)}">${playIcon}</button>${v.duration?`<span class="dur">${fmt(v.duration)}</span>`:''}</div>`;
+   media=`<div class="media">${v.updated?`<span class="mbadge">UPRAVENO</span>`:''}${v.poster?`<img src="${v.poster}" alt="" loading="lazy">`:''}<button class="play" aria-label="Přehrát: ${esc(v.title)}">${playIcon}</button>${v.duration?`<span class="dur">${fmt(v.duration)}</span>`:''}</div>`;
   } else media='<div class="media"><div class="pending"><div><div class="dot"></div>Animace se právě renderuje…</div></div></div>';
-  c.innerHTML=media+`<div class="body"><div class="row"><span class="num">${v.id}</span><h3 class="title">${esc(v.title)}</h3></div><p class="desc">${esc(v.desc)}</p>${v.file?`<div class="actions"><a href="${v.file}" target="_blank" rel="noopener">Otevřít video</a><a href="${v.file}" download>Stáhnout</a></div>`:''}</div>`;
+  c.innerHTML=media+`<div class="body"><div class="row"><span class="num">${v.id}</span><h3 class="title">${esc(v.title)}${v.updated?`<span class="badge">UPRAVENO</span>`:''}</h3></div>${v.updated?`<p class="upd-note">Nová opravená verze · ${esc(v.updated)}</p>`:''}<p class="desc">${esc(v.desc)}</p>${v.file?`<div class="actions"><a href="${v.file}" target="_blank" rel="noopener">Otevřít video</a><a href="${v.file}" download>Stáhnout</a></div>`:''}</div>`;
   if(v.file){ c.querySelector('.play').onclick=()=>{
     const m=c.querySelector('.media');
     document.querySelectorAll('video').forEach(x=>x.pause());
